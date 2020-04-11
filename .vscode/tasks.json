@@ -1,0 +1,27 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "group": "build",
+            "type": "shell",
+            "label": "build server",
+            "command": "npm run build",
+            "presentation": {
+                "panel": "dedicated",
+                "showReuseMessage": true
+            }
+        },
+        {
+            "group": "build",
+            "type": "shell",
+            "label": "test server",
+            "command": "npm run test",
+            "presentation": {
+                "panel": "dedicated",
+                "showReuseMessage": true
+            }
+        }
+    ]
+}

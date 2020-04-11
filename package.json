@@ -1,0 +1,14 @@
+{
+    "name": "airbreath",
+    "version": "0.0.1",
+    "description": "",
+    "license": "ISC",
+    "scripts": {
+        "postinstall": "dotnet restore",
+        "build": "dotnet build ./AirBreath.Server",
+        "test:api": "dotnet test",
+        "test": "npm run test:api",
+        "migrate": "cd ./AirBreath.Server && node ../scripts/create-migration.js && dotnet ef database update",
+        "start": "set ASPNETCORE_ENVIRONMENT=Development && dotnet run --project AirBreath.Server"
+    }
+}

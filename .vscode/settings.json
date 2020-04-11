@@ -1,0 +1,31 @@
+{
+    "breadcrumbs.enabled": true,
+    "rewrap.wrappingColumn": 120,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "telemetry.enableTelemetry": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/bin": true,
+        "**/obj": true
+    },
+    "editor.rulers": [
+        90
+    ],
+    "workbench.editor.showTabs": true,
+    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "emmet.showExpandedAbbreviation": "never",
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.suggest.localityBonus": true,
+    "editor.snippetSuggestions": "bottom",
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never"
+}
