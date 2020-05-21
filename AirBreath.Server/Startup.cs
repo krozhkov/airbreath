@@ -109,11 +109,6 @@ namespace AirBreath.Server
 
             if (env.IsDevelopment())
             {
-                app.UseSpa(spa =>
-                {
-                    spa.UseProxyToSpaDevelopmentServer("http://localhost:8080/");
-                });
-
                 app.UseDeveloperExceptionPage();
                 app.UseDatabaseErrorPage();
             }

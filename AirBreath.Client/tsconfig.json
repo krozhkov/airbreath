@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "es2015",
+        "target": "es2015",
+        "jsx": "react",
+        "moduleResolution": "node",
+        "declaration": false,
+        "noEmitOnError": true,
+        "allowJs": false,
+        "allowUnusedLabels": false,
+        "noUnusedLocals": true,
+        "allowUnreachableCode": false,
+        "removeComments": true,
+        "noImplicitThis": true,
+        "noUnusedParameters": true,
+        "forceConsistentCasingInFileNames": false,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "strictFunctionTypes": false,
+        "noStrictGenericChecks": true,
+        "noErrorTruncation": true,
+        "preserveConstEnums": true,
+        "strictNullChecks": true
+    },
+    "files": [
+        "./boot.tsx"
+    ]
+}
